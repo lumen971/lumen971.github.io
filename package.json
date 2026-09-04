@@ -1,24 +1,19 @@
 {
-  "name": "lumen-one-page",
-  "version": "1.0.0",
+  "name": "witch-lumen",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "core-js": "^3.25.3",
-    "nuxt": "^2.15.8",
-    "pug": "^3.0.2",
-    "pug-plain-loader": "^1.1.0",
-    "vue": "^2.7.10",
-    "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "@notionhq/client": "^5.1.0",
+    "nuxt": "^4.0.0",
+    "zod": "^4.0.0"
   },
   "devDependencies": {
-    "sass": "^1.97.2",
-    "sass-loader": "^10.5.2"
+    "typescript": "^5.9.0"
   }
 }
